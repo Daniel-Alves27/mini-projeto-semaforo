@@ -1,0 +1,47 @@
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container__imagem {
+    padding-left: 5em;
+}
+
+.container__botao {
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    width: 350px;
+    flex-wrap: wrap;
+}
+
+.botao__item {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1000ms;
+}
+
+.botao__item:hover {
+    box-shadow: inset -10px -10px 20px rgb(126, 221, 245);
+    transition: 1000ms;
+}
+
+#vermelho:hover {
+    box-shadow: inset -10px -10px 20px red;
+    transition: 1000ms;
+}
+
+#amarelo:hover {
+    box-shadow: inset -10px -10px 20px yellow;
+    transition: 1000ms;
+}
+
+#verde:hover {
+    box-shadow: inset -10px -10px 20px green;
+    transition: 1000ms;
+}
